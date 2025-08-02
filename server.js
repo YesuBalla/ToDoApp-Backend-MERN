@@ -17,7 +17,7 @@ app.use(cors());
 main().catch((err) => console.log(err));
 async function main() {
   await mongoose.connect(process.env.MONGODB_URL).then(() => {
-    console.log(`Connected to Mongodb Server @ ${process.env.MONGODB_URL}`);
+    console.log(`Connected to MongoDB Server`);
   });
 }
 
@@ -27,4 +27,4 @@ app.use(routerUser);
 
 // Starting Express Server
 const port = process.env.PORT;
-app.listen(port, () => console.log(`TODO-List app listening on port ${port}!`));
+app.listen(port, () => console.log(`ToDo-App listening on port ${port}!`));
