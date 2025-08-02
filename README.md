@@ -26,8 +26,8 @@ This server handles authentication, task management APIs, and secure communicati
 
 1. Clone the repository:
    ```bash
-   git clone 
-   cd 
+   git clone https://github.com/YesuBalla/ToDoApp-Backend-MERN.git
+   cd ToDoApp-Backend-MERN
    ```
 
 2. Install dependencies:
